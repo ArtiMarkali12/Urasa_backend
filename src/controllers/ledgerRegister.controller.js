@@ -14,7 +14,7 @@ export const createLedgerRegisterQuote = async (req,res)=>{
 
     res.status(201).json({
       success:true,
-      message:"Ledger register quote created successfully",
+      message:"Ledger is register quote created successfully",
       data:register
     });
 
